@@ -1,0 +1,19 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+ -fx-background-image: url("fondo.jpg");
+}
+#welcomep {
+ -fx-fill: white;
+ -fx-font-size: 30;
+ -fx-font-weight: bold;
+}
+
+.texto {
+ -fx-fill: white ;
+ -fx-font-size: 30;
+ -fx-font-weight: bold;
+}
+
+#singin{
+    -fx-background-color: blue;
+}
