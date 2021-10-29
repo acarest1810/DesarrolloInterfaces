@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador">
+   <center>
+      <VBox prefHeight="250.0" prefWidth="394.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="60.0" prefWidth="394.0">
+               <children>
+                  <Label text="Nombre del producto: " />
+                  <TextField fx:id="nProducto" />
+               </children>
+            </HBox>
+            <HBox prefHeight="40.0" prefWidth="394.0">
+               <children>
+                  <Label text="Precio de venta: " />
+                  <TextField fx:id="precioVenta" />
+               </children>
+            </HBox>
+            <HBox prefHeight="41.0" prefWidth="394.0">
+               <children>
+                  <Button fx:id="boton" mnemonicParsing="false" onAction="#pulsacion" text="Actualizar" />
+                  <Button fx:id="suma" mnemonicParsing="false" onAction="#pulsacion" text="Suma" />
+               </children>
+            </HBox>
+            <HBox prefHeight="31.0" prefWidth="394.0">
+               <children>
+                  <Label text="Precio total: " />
+                  <Label fx:id="datoFinal" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+            	<children>
+                  <Label text="Nombre del producto: " />
+                  <Label fx:id="productoFinal" />
+               </children>
+             </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
